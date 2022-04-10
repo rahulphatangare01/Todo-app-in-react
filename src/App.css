@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+body{ 
+    text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.header{
+    background-color: rgb(17, 69, 85);
+    color: white;
+  
+   height: 50px;
+   line-height: 50px;
+   
+    
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.container{
+    background-color: rgba(110, 216, 248, 0.466) ;
+    width: 50%;             
+    margin: auto;
+    padding-bottom: 30px;
+}
+.output{
+    border:2px solid rgb(15, 15, 15);
+    width: 50%;
+    margin: auto;
+    padding-top: 2px;
+background-color:rgb(248, 245, 245) ;
+}
+input[type=text] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .fa-trash{
+      color: red;
   }
-  to {
-    transform: rotate(360deg);
+  .fa-trash:hover {background-color: #931cca; /* Green */
+    color: white;
+
   }
-}
+  button{
+      
+      background-color: #e7e7e7; color: black;
+      padding: 12px 40px;
+     
+  }
+  button:hover {
+    background-color: #1cca21; /* Green */
+    color: white;
+  }
